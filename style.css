@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-color: #ffffff;
+   background-color: #f0d4d3;
 }
 .navbar{
     margin: 10px;
@@ -171,15 +171,20 @@ footer{
     justify-content: center;
     margin: 20px;
     padding: 20px;
-    border-radius: 10%;
 }
-.brand{
-    font-family: cursive;
-    font-size: 2.0rem;
-    text-align: center;
-    color: #003049;
+select#brand {
+    padding: 10px;
     margin: 20px;
-    padding: 20px;
+    border-radius: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    color: #003049;
+    background-color: #edf6f9;
+}
+select#brand:hover {
+    background-color: #003049;
+    color: #ffffff;
+    transition: 0.3s;
 }
 h4{
     font-family: cursive;
@@ -195,3 +200,4 @@ h4{
     padding: 20px;
     
 }
+
